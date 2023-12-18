@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.todo-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #4f9099;
+  border-radius: 5px;
+  background-color: #7a9bc7;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 15px;
+  background-color: #83bfd5;
+  color: rgb(88, 166, 153);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #75cbcd;
+}
+
+ul {
+  list-style-type: wavy;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #56849b;
+}
+
+li:last-child {
+  border-bottom: none;
+}
